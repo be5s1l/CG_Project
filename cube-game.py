@@ -117,7 +117,7 @@ enemy_health_texts = [
     )
     for i, enemy in enumerate(enemies)
 ]
-
+#Eslam khaled task 
 # --- Mini-Map ---
 mini_map_bg = Entity(
     parent=camera.ui,
@@ -177,7 +177,7 @@ def update():
         player.z = -border
     if player.z < -border:
         player.z = border
-
+#finish my task
     # Reflection follows
     player_reflection.x = player.x
     player_reflection.z = player.z
